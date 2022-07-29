@@ -83,12 +83,29 @@
         android:textSize="20sp"
         android:textStyle="bold" />
 
-<!--    <TextView
-        android:id="@+id/textView"
+    <!--    <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="" />-->
+    <TextView
+        android:id="@+id/textViewyourageinhours1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:text="" />-->
+        android:textAlignment="center"
+        android:textColor="#E63946"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textViewyourageinhours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Age In Hours"
+        android:textAlignment="center"
+        android:textColor="#F1FAEE"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
 
 </LinearLayout>
