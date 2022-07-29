@@ -37,6 +37,10 @@ class MainActivity : AppCompatActivity() {
                 var currentDate=sdf.parse(sdf.format(System.currentTimeMillis()))
                 var currentDateInDays=currentDate.time/86400000
                 var diffrenceBetweenDates=currentDateInDays-selectedDateInDays
+                var selectedDateInHours=theDate.time/3600000
+                val currentDateInhours=currentDate.time/3600000
+                var diffrenceBetweenDatesInHours=currentDateInhours-selectedDateInHours
+                textViewyourageinhours1.text=diffrenceBetweenDatesInHours.toString()
                 textViewyourageindays.text=diffrenceBetweenDates.toString()
             },
             year,
