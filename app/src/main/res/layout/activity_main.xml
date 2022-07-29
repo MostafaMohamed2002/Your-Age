@@ -31,7 +31,7 @@
         android:id="@+id/textViewinminutes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="IN DAYS"
+        android:text="IN DAYS,HOURS"
         android:textAlignment="center"
         android:textSize="26sp"
         android:textStyle="bold" />
