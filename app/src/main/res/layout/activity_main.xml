@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#E9C46A"
+    android:orientation="vertical"
+    android:padding="16dp"
+>
+
+    <TextView
+        android:id="@+id/textViewcalculatyour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULATE YOUR "
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/teal_200"
+        android:text="AGE"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewinminutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IN DAYS"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/selectdatebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/primaryTextColor"
+        android:text="Select Date"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+   <TextView
+       android:id="@+id/textViewselecteddate1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textAlignment="center"
+       android:textSize="20sp"
+       android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textViewselecteddate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECTED DATE"
+        android:textAlignment="center"
+        android:textColor="#B7B7A4"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+   <TextView
+       android:id="@+id/textViewyourageindays"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textAlignment="center"
+       android:textSize="20sp"
+       android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textViewyourageinminutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Age In Days"
+        android:textAlignment="center"
+        android:textColor="#B7B7A4"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+
+</LinearLayout>
