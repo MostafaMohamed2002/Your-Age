@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
-    android:background="#E9C46A"
+    android:background="#A8DADC"
     android:orientation="vertical"
-    android:padding="16dp"
->
+    android:padding="20sp">
 
     <TextView
         android:id="@+id/textViewcalculatyour"
@@ -14,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="CALCULATE YOUR "
         android:textAlignment="center"
-        android:textSize="24sp"
+        android:textSize="26sp"
         android:textStyle="bold" />
 
     <TextView
@@ -22,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:background="@color/teal_200"
+        android:background="#457B9D"
         android:text="AGE"
         android:textAlignment="center"
         android:textSize="26sp"
@@ -34,7 +33,7 @@
         android:layout_height="wrap_content"
         android:text="IN DAYS"
         android:textAlignment="center"
-        android:textSize="24sp"
+        android:textSize="26sp"
         android:textStyle="bold" />
 
     <Button
@@ -44,15 +43,16 @@
         android:backgroundTint="@color/primaryTextColor"
         android:text="Select Date"
         android:textColor="@color/black"
+        android:textSize="21sp"
         android:textStyle="bold" />
 
-   <TextView
-       android:id="@+id/textViewselecteddate1"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:textAlignment="center"
-       android:textSize="20sp"
-       android:textStyle="normal" />
+    <TextView
+        android:id="@+id/textViewselecteddate1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="normal" />
 
     <TextView
         android:id="@+id/textViewselecteddate"
@@ -60,17 +60,18 @@
         android:layout_height="wrap_content"
         android:text="SELECTED DATE"
         android:textAlignment="center"
-        android:textColor="#B7B7A4"
+        android:textColor="#F1FAEE"
         android:textSize="20sp"
         android:textStyle="bold" />
 
-   <TextView
-       android:id="@+id/textViewyourageindays"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:textAlignment="center"
-       android:textSize="20sp"
-       android:textStyle="normal" />
+    <TextView
+        android:id="@+id/textViewyourageindays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#E63946"
+        android:textSize="26sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textViewyourageinminutes"
@@ -78,9 +79,16 @@
         android:layout_height="wrap_content"
         android:text="Your Age In Days"
         android:textAlignment="center"
-        android:textColor="#B7B7A4"
+        android:textColor="#F1FAEE"
         android:textSize="20sp"
-        android:textStyle="normal" />
+        android:textStyle="bold" />
+
+<!--    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="" />-->
 
 
 </LinearLayout>

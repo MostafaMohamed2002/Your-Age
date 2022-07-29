@@ -14,12 +14,14 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+       /* Toast.makeText(this,"Hello,Mohamed Ahmed",Toast.LENGTH_LONG).show()
+        textView.text="\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpecial Copy For:Mohamed Ahmed"*/
         selectdatebtn.setOnClickListener{
             datePicker()
 
         }
     }
-    open fun datePicker(){
+    private fun datePicker(){
         var myCalender=Calendar.getInstance()
         var year=myCalender.get(Calendar.YEAR)
         var month=myCalender.get(Calendar.MONTH)
